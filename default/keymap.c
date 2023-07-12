@@ -15,7 +15,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LSFT, KC_Z   , KC_X   , KC_C   , KC_V   , KC_B   ,                    KC_N   , KC_M   , KC_COMM, KC_DOT , KC_SLSH, KC_RSFT,
                           _______, _______,                                                        _______, _______,
                                             LOWER  ,ALT_T(KC_ENT),               ALL_T(KC_SPC), KC_BSPC,
-                                            KC_LCMD, _______,                    _______,  RAISE ,
+                                            KC_LGUI, _______,                    _______,  RAISE ,
                                             _______, _______,                    _______, _______
     ),
 
@@ -26,7 +26,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LSFT, KC_P6  , KC_P7  , KC_P8  , KC_P9  , KC_P0  ,                    KC_UNDS, KC_PLUS, KC_TILD, KC_LCBR, KC_RCBR, KC_RSFT,
                           _______, _______,                                                        _______, _______,
                                             _______,ALT_T(KC_ENT),               ALL_T(KC_SPC), KC_BSPC,
-                                            KC_LCMD, _______,                    _______, _______,
+                                            KC_LGUI, _______,                    _______, _______,
                                             _______, _______,                    _______, _______
     ),
 
